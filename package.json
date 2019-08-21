@@ -13,14 +13,14 @@
     "type": "git",
     "url": "git+https://github.com/quellenforschung/Discord-Bot.git"
   },
-  "author": "Fruxh & Timeraa",
+  "author": "Fruxh",
   "license": "MPL-2.0",
   "bugs": {
     "url": "https://github.com/quellenforschung/Discord-Bot/issues"
   },
   "homepage": "https://github.com/quellenforschung/Discord-Bot#readme",
   "devDependencies": {
-    "@types/node": "^12.7.1",
+    "@types/node": "^12.7.2",
     "source-map-support": "^0.5.13",
     "typescript": "^3.5.3"
   }

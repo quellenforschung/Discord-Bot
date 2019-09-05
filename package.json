@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/quellenforschung/Discord-Bot#readme",
   "devDependencies": {
-    "@types/node": "^12.7.2",
+    "@types/node": "^12.7.4",
     "source-map-support": "^0.5.13",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.2"
   }
 }

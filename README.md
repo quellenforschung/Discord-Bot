@@ -35,6 +35,8 @@ If you new and you want in the project a first step, then the following links ma
 - [VSC NodeJS](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
 - [VSC TypeScript](https://code.visualstudio.com/docs/typescript/typescript-tutorial)
 
+- [Setup Github on VSC](http://www.notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code)
+
 ### HowTo push a stage in VSC
 *Note: you had to download the branch*
 - first: added your idea or bug fix to the code files

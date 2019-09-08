@@ -1,4 +1,4 @@
-**This branch is under high developement. Use at your own risk**
+**---This branch is under high developement. Use at your own risk---**
 
 This repository contains the source code of **Tuagh**'s Discord bot.<br>
 If you want to get more information or help us by **[contributing](#development)** in this project, we would like to see you in our [**Discord** server](https://discord.gg/b6GXVuT).
@@ -26,3 +26,10 @@ tsc                         tsc -w
 # host local server         or
 npm run start               npm start
 ```
+
+## Tutorials
+If you new and you want in the project a first step, then the following links maybe helpful for you.
+
+*Visual Studio Code (VS Code / VSC)*
+- [VSC NodeJS](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
+- [VSC TypeScript](https://code.visualstudio.com/docs/typescript/typescript-tutorial)

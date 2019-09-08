@@ -34,7 +34,6 @@ If you new and you want in the project a first step, then the following links ma
 *Visual Studio Code (VS Code / VSC)*
 - [VSC NodeJS](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
 - [VSC TypeScript](https://code.visualstudio.com/docs/typescript/typescript-tutorial)
-
 - [Setup Github on VSC](http://www.notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code)
 
 ### HowTo push a stage in VSC
@@ -43,7 +42,7 @@ If you new and you want in the project a first step, then the following links ma
 - second: go to *source control*
 - third: add your changes to *stage changes*
 - fourth: write a comment what describe your changes
-- fifth: check if you have the added the correct changes to stage changes
+- fifth: check if you had add the correct changes to stage changes
 - sixth: *commit staged*
 - seventh: *push to ...* the branch you want to push
 - eighth: check github -> Is my stage uploaded?

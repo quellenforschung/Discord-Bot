@@ -28,8 +28,11 @@ tsc                         tsc -w
 npm run start               npm start
 ```
 
-## Tutorials
+## Tutorials, Handbooks and Documentations
 If you new and you want in the project a first step, then the following links maybe helpful for you.
+
+- [Documentation TypeScript](https://www.typescriptlang.org/docs/home.html)
+
 
 *Visual Studio Code (VS Code / VSC)*
 - [VSC NodeJS](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)

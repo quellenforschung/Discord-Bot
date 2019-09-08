@@ -18,11 +18,22 @@ client.on("message", message => {
   //let textContainer = "#NOT_SET";    //for developing
   textContainer = message.content.toLowerCase();
 
+  /******************/
+  //frx - help
+  //let textHelpContainer = "#NOT_SET";    //for developing
+  let textHelpContainer = "__Note:__\nGroß- und Kleinschreibung muss nicht beachtet werden.\n\n**Lulup des MiMiMi:**\n` frx Gepriesen sei der Herr `\n` frx gewimmer `\n\n**Links** \n` frx website ` -> Sendet dir den Link zu unser Website.\n` frx discordrules ` -> Sendet dir einen Link zu den Discordrules.\n` frx invite link ` -> Sendet dir einen Discordeinladungslink.\n";
+
+
+  if(textContainer.includes(commandPrefix + "help")) {
+    message.author.send(textHelpContainer);
+  }
+
+  //first Lulup feature-alpha
   if(textContainer.includes(commandPrefix + "gepriesen sei der herr")) {
-    message.channel.send("MiMiMi <:schmuser:602611519888424981>");
+    message.channel.send("MiMiMi :notes: <:schmuser:602611519888424981>");
   }
   if(textContainer.includes(commandPrefix + "gewimmer")) {
-    message.channel.send("Auf diese Art geht die Welt zugrund\nAuf diese Art geht die Welt zugrund\nAuf diese Art geht die Welt zugrund\nNicht mit einem Knall: mit Gewimmer <:schmuser:602611519888424981>");
+    message.channel.send("Auf diese Art geht die Welt zugrund\nAuf diese Art geht die Welt zugrund\nAuf diese Art geht die Welt zugrund\nNicht mit einem Knall, mit Gewimmer <:schmuser:602611519888424981>");
   }
 
   //Hyperlinks of website (include later if website is online)
@@ -31,20 +42,22 @@ client.on("message", message => {
     let emote = ":hatching_chick:";
     //Website
     if(textContainer.includes(commandPrefix + "website")) {
-      message.channel.send("Ein Link ist geschlüpft https://www.nichtKlickenLINKbinEinTest.net " + emote);  
+      message.author.send("Ein Link ist geschlüpft https://www.tuagh.com " + emote);  
     }
     //DiscordRegelwerk
     if(textContainer.includes(commandPrefix + "discordrules")) {
-      message.channel.send("Ein Link ist geschlüpft https://www.nichtKlickenLINKbinEinTest.net/discordrules " + emote);  
+      message.author.send("Ein Link ist geschlüpft https://www.tuagh.com/discordrules " + emote);  
     }
     //InviteLink
     if(textContainer.includes(commandPrefix + "invite link")) {
-      message.channel.send("Ein Link ist geschlüpft https://discord.gg/XXXXXXXXXX " + emote);  
+      message.author.send("Ein Link ist geschlüpft https://discord.gg/b6GXVuT " + emote);  
     }
+    /*
     //Info to team members
     if(textContainer.includes(commandPrefix + "userinfo luki buzz#9327")) {
     message.channel.send("Ein Link ist geschlüpft https://www.nichtKlickenLINKbinEinTest.net/profile/LukiBuzz\nDas ist ein Beispiel vielleicht für Später, um das Team vorzustellen. mal schaun kappa :3" + emote);  
     }
+    */
     return;
   }
 });
@@ -106,4 +119,4 @@ client.on("message", message => {
 });*/
 
 //* logins with token
-client.login("NjA5NDA5MDUzNjcxNTU1MTEz.XU2aaA.oUSnlgAalIs4q3napVf-F0MlYV4");
+client.login("NjA5NDA5MDUzNjcxNTU1MTEz.XXUDJA.3P6Yg3CEc5J3wFqhomWT3ANPjHY");
